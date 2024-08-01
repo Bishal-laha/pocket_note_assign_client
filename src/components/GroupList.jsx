@@ -1,6 +1,6 @@
 import { Stack } from '@mui/material';
 import GroupItem from './GroupItem';
-import { memo } from 'react';
+import { Typography} from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';
 
 const GroupList = ({ width = "100%", groupList, setIsOpen }) => {
@@ -17,4 +17,4 @@ const GroupList = ({ width = "100%", groupList, setIsOpen }) => {
     )
 }
 
-export default memo(GroupList);
+export default GroupList;
