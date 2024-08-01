@@ -22,4 +22,4 @@ function GroupItem({ item }) {
     )
 }
 
-export default GroupItem;
+export default memo(GroupItem);
