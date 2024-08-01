@@ -19,7 +19,7 @@ const AppLayout = () => (WrapComponent) => {
                     const response = await axios.get(`${import.meta.env.VITE_SERVER}/all-group`);
                     setGroupList([...response?.data?.data]);
                 } catch (error) {
-                    toast.error("Failed to load group list", error.message);
+                    // toast.error("Failed to load group list", error.message);
                 }
             };
 
